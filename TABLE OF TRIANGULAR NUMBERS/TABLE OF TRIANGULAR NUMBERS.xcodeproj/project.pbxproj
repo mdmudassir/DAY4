@@ -12,6 +12,16 @@
 		7F522B94191BF69700FD5D86 /* TABLE_OF_TRIANGULAR_NUMBERS.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F522B93191BF69700FD5D86 /* TABLE_OF_TRIANGULAR_NUMBERS.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F522BB8191BFEFB00FD5D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F522BA3191BFEFA00FD5D86;
+			remoteInfo = keyboardinput;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7F522B87191BF69600FD5D86 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +41,7 @@
 		7F522B8F191BF69700FD5D86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F522B92191BF69700FD5D86 /* TABLE OF TRIANGULAR NUMBERS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TABLE OF TRIANGULAR NUMBERS-Prefix.pch"; sourceTree = "<group>"; };
 		7F522B93191BF69700FD5D86 /* TABLE_OF_TRIANGULAR_NUMBERS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TABLE_OF_TRIANGULAR_NUMBERS.1; sourceTree = "<group>"; };
+		7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keyboardinput.xcodeproj; path = ../keyboardinput/keyboardinput.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,7 @@
 		7F522B80191BF69600FD5D86 = {
 			isa = PBXGroup;
 			children = (
+				7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */,
 				7F522B8E191BF69700FD5D86 /* TABLE OF TRIANGULAR NUMBERS */,
 				7F522B8B191BF69700FD5D86 /* Frameworks */,
 				7F522B8A191BF69700FD5D86 /* Products */,
@@ -86,6 +98,14 @@
 				7F522B92191BF69700FD5D86 /* TABLE OF TRIANGULAR NUMBERS-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F522BB5191BFEFA00FD5D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F522BB9191BFEFB00FD5D86 /* keyboardinput */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +147,28 @@
 			mainGroup = 7F522B80191BF69600FD5D86;
 			productRefGroup = 7F522B8A191BF69700FD5D86 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7F522BB5191BFEFA00FD5D86 /* Products */;
+					ProjectRef = 7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7F522B88191BF69600FD5D86 /* TABLE OF TRIANGULAR NUMBERS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7F522BB9191BFEFB00FD5D86 /* keyboardinput */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = keyboardinput;
+			remoteRef = 7F522BB8191BFEFB00FD5D86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F522B85191BF69600FD5D86 /* Sources */ = {
@@ -253,6 +289,7 @@
 				7F522B99191BF69700FD5D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
