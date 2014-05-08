@@ -20,6 +20,13 @@
 			remoteGlobalIDString = 7F522BA3191BFEFA00FD5D86;
 			remoteInfo = keyboardinput;
 		};
+		7F522C3A191C128100FD5D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F522C36191C128000FD5D86 /* non negative integers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F522C25191C128000FD5D86;
+			remoteInfo = "non negative integers";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +49,7 @@
 		7F522B92191BF69700FD5D86 /* TABLE OF TRIANGULAR NUMBERS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TABLE OF TRIANGULAR NUMBERS-Prefix.pch"; sourceTree = "<group>"; };
 		7F522B93191BF69700FD5D86 /* TABLE_OF_TRIANGULAR_NUMBERS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TABLE_OF_TRIANGULAR_NUMBERS.1; sourceTree = "<group>"; };
 		7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keyboardinput.xcodeproj; path = ../keyboardinput/keyboardinput.xcodeproj; sourceTree = "<group>"; };
+		7F522C36191C128000FD5D86 /* non negative integers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "non negative integers.xcodeproj"; path = "../non negative integers/non negative integers.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,11 @@
 		7F522B80191BF69600FD5D86 = {
 			isa = PBXGroup;
 			children = (
-				7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */,
+				7F522C36191C128000FD5D86 /* non negative integers.xcodeproj */,
 				7F522B8E191BF69700FD5D86 /* TABLE OF TRIANGULAR NUMBERS */,
 				7F522B8B191BF69700FD5D86 /* Frameworks */,
 				7F522B8A191BF69700FD5D86 /* Products */,
+				7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +113,14 @@
 			isa = PBXGroup;
 			children = (
 				7F522BB9191BFEFB00FD5D86 /* keyboardinput */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F522C37191C128000FD5D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F522C3B191C128100FD5D86 /* non negative integers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +169,10 @@
 					ProductGroup = 7F522BB5191BFEFA00FD5D86 /* Products */;
 					ProjectRef = 7F522BB4191BFEFA00FD5D86 /* keyboardinput.xcodeproj */;
 				},
+				{
+					ProductGroup = 7F522C37191C128000FD5D86 /* Products */;
+					ProjectRef = 7F522C36191C128000FD5D86 /* non negative integers.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -166,6 +187,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = keyboardinput;
 			remoteRef = 7F522BB8191BFEFB00FD5D86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F522C3B191C128100FD5D86 /* non negative integers */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "non negative integers";
+			remoteRef = 7F522C3A191C128100FD5D86 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
